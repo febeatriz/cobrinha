@@ -84,7 +84,7 @@ while not game_over:
     if direcao == LEFT:
         cobra[0] = (cobra[0][0] - 10, cobra[0][1])
 
-    tela.fill((0,0,0))
+    tela.fill((18, 74, 33))
     tela.blit(ponto,ponto_pos)
         
     score_font = font.render('Pontuação: %s' % (score), True, (255, 255, 255))
